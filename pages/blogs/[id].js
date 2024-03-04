@@ -4,17 +4,24 @@ import { Title, TitleSm } from "@/components/common/Title";
 import Head from "next/head";
 import { useRouter } from "next/router";
 import React from "react";
+import { useState, useEffect } from "react";
 
 const SinglePost = () => {
   const router = useRouter();
   const { id } = router.query;
-  const post = blogdata.find((post) => post.id === parseInt(id));
 
-  if (!post) {
-    // You can return a loading indicator or a message indicating that the post couldn't be found
+  const [post, setPost] = useState(null);
+
+  useEffect(() => {
+    if (id) {
+      const foundPost = blogdata.find((post) => post.id === parseInt(id));
+      setPost(foundPost);
+    }
+  }, [id]);
+
+  if (!post || !id) {
     return <div>Loading...</div>;
   }
-
   return (
     <>
       <Head>
