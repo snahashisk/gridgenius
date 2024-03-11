@@ -1,82 +1,98 @@
-import { AiOutlineCalendar } from "react-icons/ai"
-import { TfiRulerPencil } from "react-icons/tfi"
-import { VscFileSubmodule } from "react-icons/vsc"
-import { BiUser } from "react-icons/bi"
+import { AiOutlineCalendar } from "react-icons/ai";
+import { TfiRulerPencil } from "react-icons/tfi";
+import { VscFileSubmodule } from "react-icons/vsc";
+import { BiUser } from "react-icons/bi";
 
 export const home = [
   {
     icon: <AiOutlineCalendar size={25} />,
-    title: "10+ years of market experience",
+    title: "EMPOWERING DIGITAL SUCCESS",
   },
   {
     icon: <TfiRulerPencil size={25} />,
-    title: "Unique technologies & modern approach ",
+    title: "AFFORDABLE AND FOCUSED",
   },
   {
     icon: <VscFileSubmodule size={25} />,
-    title: "100+ cuccessful cases in portfolio",
+    title: "IGNITE AUDIENCE ENGAGEMENT",
   },
   {
     icon: <BiUser size={25} />,
-    title: "Customer satisfaction is our top priority",
+    title: "CUSTOMER SATISFACTION IS OUR TOP PRIORITY",
   },
-]
+];
 export const expertise = [
   {
     id: 1,
-    title: "Web Design & Development",
+    title: "Social Media Marketing",
     cover: "../images/e1.jpg",
-    desc: [{ text: "Web design" }, { text: "Web development" }, { text: "Custom icons & illustrations" }, { text: "Hosting" }, { text: "Website audit" }],
+    desc: [
+      {
+        text: "Our Social media management service helps businesses to in- crease their online visibility, engage with their target audience, and drive leads, increase sales through various social media plat- forms.",
+      },
+    ],
   },
   {
     id: 2,
-    title: "Digital Marketing",
+    title: "Business Development",
     cover: "../images/e2.jpg",
-    desc: [{ text: "Social media marketing" }, { text: "Marketing campaigns" }, { text: "Markting management" }, { text: "SEO" }],
+    desc: [
+      {
+        text: "Discover GridGenius, where strategic innovation converges with digital excellence. Our expertise lies in optimizing your brand's growth, elevating your online presence and driving business development.",
+      },
+    ],
   },
   {
     id: 3,
-    title: "E-Commerce",
+    title: "Web & Mobile App Development",
     cover: "../images/e3.jpg",
-    desc: [{ text: "E-Commerce website design" }, { text: "WooCommerce" }, { text: "Content management" }, { text: "Hosting" }],
+    desc: [
+      {
+        text: "GridGenius crafts seamless digital experiences. Specializing in web and mobile app development, we transform ideas into engaging solutions, ensuring innovation and success for your business.",
+      },
+    ],
   },
   {
     id: 4,
-    title: "Branding & Creative Services",
+    title: "Printable Design",
     cover: "../images/e4.jpg",
-    desc: [{ text: "Visual identity" }, { text: "Branding for social media" }, { text: "Custom illustrations" }],
+    desc: [
+      {
+        text: "Elevate your brand with GridGenius. Pioneers in printable design, we create visually stunning materials that captivate audiences and leave a lasting impression. Transforming ideas into tangible excellence.",
+      },
+    ],
   },
-]
+];
 export const testimonial = [
   {
     id: 1,
-    name: "Alexander Black",
-    cover: "../images/e1.jpg",
-    post: "Seven consulting - CEO",
-    desc: "Nunc fermentum - tempus erat ligula, sit amet lacinia justo cursus ac. Suspendisse quis nulla tincidunt! Lorem ipsum dolor amet at ornare ex, quis fringilla tortor! Nunc consectetur feugiat rutrum. Sed rhoncus sapien!",
+    name: "Nipun Das",
+    cover: "../images/photo1.png",
+    post: "Owner of New Galaxy",
+    desc: "I'm absolutely delighted with the services provided by GRIDGENIUS marketing agency. Their proficiency in social media has completely revolutionized my brand. Through innovative strategies, eye-catching visuals, and a team-oriented approach, they delivered exceptional results. This included heightened visibility, improved engagement, and increased conversions. I highly recommend GRIDGENIUS for a transformative digital marketing experience.",
   },
   {
     id: 2,
-    name: "Diana Green",
-    cover: "../images/e2.jpg",
-    post: "Seven Arts - marketing manager",
-    desc: "Cras at ornare fermentum quam et tortor euismod, vel maximus metus tristique at ornare ex, quis fringilla tortor. Aenean semper neque quis consectetur lobortis. Quisque nec convallis ex. Aenean ut metus et nunc cursus aliquet.",
+    name: "Plaban Saha",
+    cover: "../images/photo3.png",
+    post: "Owner of Star Food Court",
+    desc: "Exceptional business development services from GRIDGENIUS Digital Marketing Agency! Their strategic approach, market insights, and dedicated team significantly boosted my business. From identifying opportunities to effective implementation, GRIDGENIUS exceeded my expectations. I'm grateful for their expertise and commitment to success. I highly recommend their business development services!",
   },
   {
     id: 3,
-    name: "Alexander Black",
-    cover: "../images/e3.jpg",
-    post: "Seven consulting - CEO",
-    desc: "Nunc fermentum - tempus erat ligula, sit amet lacinia justo cursus ac. Suspendisse quis nulla tincidunt! Lorem ipsum dolor amet at ornare ex, quis fringilla tortor! Nunc consectetur feugiat rutrum. Sed rhoncus sapien!",
+    name: "Indrajit Das",
+    cover: "../images/photo4.png",
+    post: "Owner of Baby Bunny Kakdwip",
+    desc: "I am satisfied with the social media services provided by GRIDGENIUS Digital Marketing Agency. Their targeted approach and creative advertising campaigns have yielded remarkable results for my business, including increased visibility, engagement, and conversions. GRIDGENIUS excels in every aspect, thanks to their dedicated team and strategic brilliance, making them the go-to agency for social media success. Highly recommended.",
   },
   {
     id: 4,
-    name: "Diana Green",
-    cover: "../images/e4.jpg",
-    post: "Seven Arts - marketing manager",
-    desc: "Cras at ornare fermentum quam et tortor euismod, vel maximus metus tristique at ornare ex, quis fringilla tortor. Aenean semper neque quis consectetur lobortis. Quisque nec convallis ex. Aenean ut metus et nunc cursus aliquet.",
+    name: "Suvajit Santra",
+    cover: "../images/photo2.png",
+    post: "Owner of SS Jewellers",
+    desc: "I am absolutely delighted with ORIDGENIUS Digital Marketing Agency's creative design and video services. Their team brilliantly captured the essence of my brand, delivering visually stunning content that resonates with my audience. ORIDGENIUS exceeded expectations with their artistic flair and attention to detail. They are a creative powerhouse that I highly recommend for elevating your brand's visual identity.",
   },
-]
+];
 export const showcase = [
   {
     id: 1,
@@ -114,33 +130,49 @@ export const showcase = [
     cover: "../images/s6.jpg",
     catgeory: "WEBSITES	",
   },
-]
+];
 export const brand = [
   {
     id: 1,
-    cover: "../images/l1.svg",
+    cover: "../images/asset1.png",
   },
   {
     id: 2,
-    cover: "../images/l2.svg",
+    cover: "../images/asset2.png",
   },
   {
     id: 3,
-    cover: "../images/l3.svg",
+    cover: "../images/asset3.png",
   },
   {
     id: 4,
-    cover: "../images/l4.svg",
+    cover: "../images/asset4.png",
   },
   {
     id: 5,
-    cover: "../images/l5.svg",
+    cover: "../images/asset5.png",
   },
   {
     id: 6,
-    cover: "../images/l6.svg",
+    cover: "../images/asset6.png",
   },
-]
+  {
+    id: 7,
+    cover: "../images/asset7.png",
+  },
+  {
+    id: 8,
+    cover: "../images/asset8.png",
+  },
+  {
+    id: 9,
+    cover: "../images/asset9.png",
+  },
+  {
+    id: 10,
+    cover: "../images/asset10.png",
+  },
+];
 export const blogdata = [
   {
     id: 1,
@@ -151,14 +183,15 @@ export const blogdata = [
   },
   {
     id: 2,
-    title: "Don’t underestimate the lorem ipsum dolor amet",
+    title: "Don't underestimate the lorem ipsum dolor amet",
     cover: "../images/b2.jpg",
     catgeory: "TIPS & TRICKS",
     date: "OCTOBER 20, 2023",
   },
   {
     id: 3,
-    title: "Building the real VR lorem ipsum dolor amet glavrida from a scratch",
+    title:
+      "Building the real VR lorem ipsum dolor amet glavrida from a scratch",
     cover: "../images/b3.jpg",
     catgeory: "TIPS & TRICKS",
     date: "OCTOBER 9, 2023",
@@ -170,7 +203,7 @@ export const blogdata = [
     catgeory: "EVENTS",
     date: "OCTOBER 8, 2023",
   },
-]
+];
 export const teamdata = [
   {
     id: 1,
@@ -220,4 +253,4 @@ export const teamdata = [
     cover: "../images/t8.jpg",
     post: "",
   },
-]
+];

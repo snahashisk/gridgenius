@@ -22,6 +22,9 @@
 .grid-6 {
   @include grid(repeat(6, 1fr), 30px);
 }
+.grid-10 {
+  @include grid(repeat(10, 1fr), 30px);
+}
 
 @media screen and (max-width: 800px) {
   .grid-6,
